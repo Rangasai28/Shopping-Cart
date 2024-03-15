@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <title>Document</title>
+</head>
+<body>
+      
+      <header>
+            <form id = "search-iteams">
+                <h1>Shoping List</h1> 
+                <div id="sb"><input type="text" placeholder="Search here...." id = "search"> 
+                <br><br>
+                <div class="check">
+                  <label for="Hide List-Items">Hide List</label>
+                  <input type="checkbox" id="Hide List-Items">
+                </div>
+            </form>
+      </header> 
+      <div id="container">
+        <!-- <form > -->
+            <input type="text" placeholder="Add Iteams...." id = "addIt"> 
+            <button id = "add-button">Add</button>
+        <!-- </form> -->
+            <!-- <input type="text" placeholder="Add Iteams...." id = "addIt"> 
+            <button id = "add-button">Add</button> -->
+        <div id="grocery-items">
+            <div id="ght"></div>
+          <h2>Iteams-list</h2>
+          <ul id="list">
+            <li>
+                <span id="item">Orange</span>
+                <span id="delete">Delete</span>
+            </li>
+           
+            <li>
+                <span id="item">Apple</span>
+                <span id="delete">Delete</span>
+            </li>
+             <li>
+                <span id="item">Banana</span>
+                <span id="delete">Delete</span>
+            </li>
+        </ul>
+       </div>
+    </div>
+
+</body>
+<script src="shop.js"></script>
+<script>
+//     const list = document.getElementById('myList');
+
+// list.addEven<tListener('click', function(event) {
+//   if (event.target.tagName === 'LI') {
+//     console.log('You clicked on:', event.target);
+//   }
+// });
+// document.getElementById('outer').addEventListener('click', function() {
+//   console.log('Outer div clicked');
+// });
+
+// document.getElementById('inner').addEventListener('click', function(e) {
+//   e.stopPropagation();
+//   console.log('Inner div clicked');
+// });
+
+</script>
+</html>

@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+#search-iteams{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    background-color: aquamarine;
+    max-width:800px;
+}
+
+#addIt{
+    width:350px;
+    padding:5px;
+    float:left;
+    border-radius: 0%;
+    border:1px solid #aaa;
+}
+#add-items{
+    width:400px;
+    margin:10px auto;
+}
+#add-button{
+    background-color:rgb(167, 228, 246);
+    border:none;
+    padding:6px;
+}
+#grocery-items{
+    margin:20px;
+}
+#list{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+#list li{
+    margin:50px 0px;
+    border-left:5px solid #aaa;
+    padding:10px;
+}
+#list li:hover{
+    border-color:aquamarine;
+    /* padding:10px; */
+}
+#item{
+    font-weight: bolder;
+}
+#delete{
+    float:right;
+    background-color: aquamarine;
+    font-weight: bolder;
+    padding:10px;
+    cursor: pointer;
+}
+
+#container{
+    margin-top:50px;
+}
